@@ -43,13 +43,11 @@ Each model is evaluated using the following metrics: **Precision**, **Recall**, 
 
 | Model                | Precision | Recall | F1-Score | Accuracy |
 |----------------------|-----------|--------|----------|----------|
-| Logistic Regression  |    --     |   --   |    0.86    |    0.86    |
-| Decision Tree        |    --     |   --   |    1.00    |    0.99    |
-| MLP Classifier       |    --     |   --   |    0.99    |    0.99    |
-| SVM Classifier       |    --     |   --   |    0.96    |    0.96    |
-| AdaBoost Classifier  |    --     |   --   |    0.78    |    0.78    |
-
-*Replace `--` with actual results after running the experiments.*
+| Logistic Regression  |    0.86     |   0.86   |    0.86    |    0.86    |
+| Decision Tree        |    1.00     |   1.00   |    1.00    |    0.99    |
+| MLP Classifier       |    0.99     |   0.99   |    0.99    |    0.99    |
+| Ridge SVM Classifier       |    0.96     |   0.96   |    0.96    |    0.96    |
+| AdaBoost Classifier  |    0.78     |   0.78   |    0.78    |    0.78    |
 
 ## Final Thoughts
 
